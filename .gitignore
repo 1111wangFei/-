@@ -1,0 +1,29 @@
+# ---------- 通用 ----------
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ---------- STM32 / CLion ----------
+build/
+cmake-build-*/
+*.elf
+*.map
+*.hex
+*.bin
+*.su
+*.o
+*.d
+
+# ---------- Android ----------
+app/android/.gradle/
+app/android/local.properties
+app/android/keystore.properties
+app/android/keystore/*.jks
+app/dist/
+*.apk
+*.aab
+*.keystore
+
+# ---------- 其它 ----------
+*.log
